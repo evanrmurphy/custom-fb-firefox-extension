@@ -9,3 +9,7 @@ Plans:
 ## Run instructions
 
 web-ext run --target=firefox-android --android-device=emulator-5554
+
+## Build instructions
+
+web-ext build
