@@ -1,5 +1,11 @@
+# Custom FB Firefox Extension
+
 Firefox extension for Android to make mobile Facebook less addictive.
 
 Plans:
 - Hide like/reaction counts
 - Collapse News Feed posts
+
+## Run instructions
+
+web-ext run --target=firefox-android --android-device=emulator-5554

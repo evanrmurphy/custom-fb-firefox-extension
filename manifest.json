@@ -4,7 +4,7 @@
   "name": "Borderify",
   "version": "1.0",
 
-  "description": "Adds a red border to all webpages matching mozilla.org.",
+  "description": "Adds a red border to all webpages matching facebook.com.",
 
   "icons": {
     "48": "icons/border-48.png"
@@ -12,7 +12,7 @@
 
   "content_scripts": [
     {
-      "matches": ["*://*.mozilla.org/*"],
+      "matches": ["*://*.facebook.com/*"],
       "js": ["borderify.js"]
     }
   ]
