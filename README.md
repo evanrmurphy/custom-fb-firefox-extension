@@ -18,3 +18,7 @@ web-ext build
 ## To do
 
 - Get extension signed/otherwise working on real Android device
+
+Helpful links:
+https://extensionworkshop.com/documentation/develop/developing-extensions-for-firefox-for-android/
+https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/#testing-in-firefox-for-android
