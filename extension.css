@@ -1,4 +1,5 @@
-div[data-sigil="reactions-sentence-container"] {
+div[data-sigil="reactions-bling-bar"] div[aria-label$=" reacted"],
+div[data-sigil="reactions-bling-bar"] div[aria-label*=" left reactions"] {
   visibility: hidden;
 }
 
