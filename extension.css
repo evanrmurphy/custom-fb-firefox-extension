@@ -1,6 +1,18 @@
+/* Hide reactions count/sentence on News Feed posts */
 div[data-sigil="reactions-bling-bar"] div[aria-label$=" reacted"],
 div[data-sigil="reactions-bling-bar"] div[aria-label*=" left reactions"] {
   visibility: hidden;
+}
+
+/* Hide reactions count/sentence on permalink posts */
+div[id="m_story_permalink_view"] div[aria-label$=" reacted"],
+div[id="m_story_permalink_view"] div[aria-label*=" left reactions"] {
+  visibility: hidden;
+}
+
+/* Hide post bodies on News Feed posts */
+div#m_newsfeed_stream div.story_body_container > div {
+  display: none;
 }
 
 /* Uncomment to debug */
