@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "custom-fb-firefox-extension",
-  "version": "1.0",
+  "version": "1.1",
 
   "description": "Evan's customizations of mobile facebook.com on Firefox Android.",
 
@@ -15,12 +15,6 @@
       "matches": ["*://*.facebook.com/*"],
       "js": ["extension.js"]
     }
-  ],
-
-  "browser_specific_settings": {
-    "gecko": {
-      "id": "evanrmurphy-custom-fb-firefox-extension"
-    }
-  }
+  ]
 
 }
