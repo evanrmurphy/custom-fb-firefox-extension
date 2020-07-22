@@ -1,0 +1,10 @@
+div[data-sigil="reactions-sentence-container"] {
+  visibility: hidden;
+}
+
+/* Uncomment to debug */
+/*
+* {
+  color: red;
+}
+*/
