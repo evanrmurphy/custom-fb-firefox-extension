@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "custom-fb-extension",
-  "version": "1.4",
+  "version": "1.4.1",
 
   "description": "Evan's customizations of mobile facebook.com on Firefox Android.",
 
