@@ -19,7 +19,7 @@ function removeNewsFeedPostsBySameAuthor() {
   }
 }
 
-setInterval(removeNewsFeedPostsBySameAuthor, 2000);
+setInterval(removeNewsFeedPostsBySameAuthor, 1000);
 
 // For debugging
 //
