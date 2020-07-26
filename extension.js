@@ -3,7 +3,7 @@ let numPosts;
 function removeNewsFeedPostsBySameAuthor() {
   // For better performance, return early if the number of posts hasn't changed, meaning
   // no new posts are detected
-  const postNodes = document.querySelectorAll('#m_newsfeed_stream article[data-sigil*="story-div"]')
+  const postNodes = document.querySelectorAll('#m_newsfeed_stream article[data-sigil*="story-div"]');
   if (postNodes.length === numPosts) return;
 
   numPosts = postNodes.length;
@@ -19,7 +19,7 @@ function removeNewsFeedPostsBySameAuthor() {
   }
 }
 
-setInterval(removeNewsFeedPostsBySameAuthor, 1000);
+setInterval(removeNewsFeedPostsBySameAuthor, 2000);
 
 // For debugging
 //
