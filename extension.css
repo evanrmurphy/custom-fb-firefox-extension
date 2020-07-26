@@ -3,6 +3,12 @@
   display: none;
 }
 
+/* Hide reactions count/sentence on Timeline posts */
+#tlFeed div[data-sigil="reactions-bling-bar"] div[aria-label$=" reacted"],
+#tlFeed div[data-sigil="reactions-bling-bar"] div[aria-label*=" left reactions"] {
+  visibility: hidden;
+}
+
 /* Hide reactions count/sentence on permalink posts */
 div[id="m_story_permalink_view"] div[aria-label$=" reacted"],
 div[id="m_story_permalink_view"] div[aria-label*=" left reactions"] {
