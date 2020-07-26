@@ -14,11 +14,15 @@ web-ext build
 
 ## To do
 
-- On the News Feed, show a counter hovering in the bottom, top or some constant
+1. On the News Feed, show a counter hovering in the bottom, top or some constant
 place on screen with the total number of posts hidden so far. This way if a
 scroll-to-load interaction loads only more posts from already-encountered
 authors, the counter will update indicating the app has responded and isn't
 halted.
+2. There is an actual apparent bug related to the scroll-to-load interaction.
+If it fails to show any new authors, then it will continue showing a loading
+indicator but not actually be loading new posts. User has to scroll up a bit
+and then back down for it to start actually loading again. Need to fix this.
 
 Helpful links:
 
