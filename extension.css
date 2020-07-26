@@ -1,5 +1,6 @@
-/* Hide entire reactions bar on News Feed posts */
-#m_newsfeed_stream div[data-sigil="reactions-bling-bar"] {
+/* Hide reactions bar and Like/Comment buttons on News Feed posts */
+#m_newsfeed_stream div[data-sigil="reactions-bling-bar"],
+#m_newsfeed_stream article[data-sigil*="story-div"] footer {
   display: none;
 }
 
