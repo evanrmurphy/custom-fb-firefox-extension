@@ -2,10 +2,7 @@
 
 Firefox extension for Android to make mobile Facebook less addictive.
 
-## Plans
-
-- Hide like/reaction counts
-- Collapse News Feed posts
+See extension.css and extension.js for latest on the functionality this has.
 
 ## Run instructions
 
@@ -17,7 +14,11 @@ web-ext build
 
 ## To do
 
-- Hide reaction counts/sentence that re-appears after clicking like or a different reaction
+- On the News Feed, show a counter hovering in the bottom, top or some constant
+place on screen with the total number of posts hidden so far. This way if a
+scroll-to-load interaction loads only more posts from already-encountered
+authors, the counter will update indicating the app has responded and isn't
+halted.
 
 Helpful links:
 
