@@ -1,7 +1,6 @@
-/* Hide reactions count/sentence on News Feed posts */
-div[data-sigil="reactions-bling-bar"] div[aria-label$=" reacted"],
-div[data-sigil="reactions-bling-bar"] div[aria-label*=" left reactions"] {
-  visibility: hidden;
+/* Hide entire reactions bar on News Feed posts */
+#m_newsfeed_stream div[data-sigil="reactions-bling-bar"] {
+  display: none;
 }
 
 /* Hide reactions count/sentence on permalink posts */
