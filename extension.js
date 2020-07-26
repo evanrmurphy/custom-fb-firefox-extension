@@ -12,7 +12,7 @@ function deduplicatePostsByAuthor() {
   for (const postEl of postEls) {
     const postAuthorId = JSON.parse(postEl.getAttribute('data-ft')).content_owner_id_new;
     if (encounteredAuthorIds.hasOwnProperty(postAuthorId)) {
-      postEl.innerHTML = 'hidden';
+      postEl.style.display = 'none';
     } else {
       encounteredAuthorIds[postAuthorId] = true;
     }
